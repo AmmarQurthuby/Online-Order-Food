@@ -1,0 +1,12 @@
+{
+    "name": "bravo/online-order-food",
+    "type": "project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "AmmarQurthuby",
+            "email": "ammar22@mhs.usk.ac.id"
+        }
+    ],
+    "require": {}
+}
