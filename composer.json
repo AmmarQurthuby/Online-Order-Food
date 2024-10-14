@@ -1,9 +1,14 @@
 {
   "name": "bravo/online-order-food",
-  "description": "online food order system",
+  "description": "Pemesanan Makanan online",
   "type": "project",
   "license": "proprietary",
   "require": {
     "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
   }
 }
