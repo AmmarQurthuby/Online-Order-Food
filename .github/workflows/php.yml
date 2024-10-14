@@ -36,7 +36,7 @@ jobs:
 
     - name: Install dependencies
       run: composer install --prefer-dist --no-progress
-      
+
     - name: Login to Docker Hub
       uses: docker/login-action@v3
       with:
@@ -46,10 +46,11 @@ jobs:
     - name: Build and push
       uses: docker/build-push-action@v6
       with:
-        context: .  # Menetapkan konteks build di dalam direktori 'project'
-        file: ./Dockerfile  # Lokasi Dockerfile di root
+        context: .
+        file: ./Dockerfile
         push: true
         tags: ammarqurthuby/online-order-food:latest
+
     # Uncomment baris berikut jika Anda memiliki skrip test di composer.json
     # - name: Run test suite
     #   run: composer run-script test
