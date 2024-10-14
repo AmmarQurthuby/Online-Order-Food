@@ -1,7 +1,9 @@
 {
-    "name": "bravo/online-order-food",
-    "description": "online food order system",
-    "type": "project",
-    "license": "proprietary",
-    "require": {}
+  "name": "bravo/online-order-food",
+  "description": "online food order system",
+  "type": "project",
+  "license": "proprietary",
+  "require": {
+    "php": ">=7.4"
+  }
 }
